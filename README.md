@@ -1,4 +1,9 @@
-ambermate
+SpadeCMS
 =========
 
-A Symfony project created on August 30, 2018, 4:56 pm.
+A symfony project providing the possibility to create your own social network. 
+
+Let your users generate content and interact with each other.
+
+
+More Details are coming soon...
