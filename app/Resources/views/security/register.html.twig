@@ -1,0 +1,25 @@
+{# app/Resources/views/registration/register.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="wrapper wrapper-register">
+        <h1>Register</h1>
+        {{ form_start(form) }}
+        <div class="error">
+            {{ error }}
+        </div>
+        {{ form_row(form.email) }}
+        {{ form_row(form.username) }}
+        {{ form_row(form.plainPassword.first) }}
+        {{ form_row(form.plainPassword.second) }}
+
+        <div>
+            <button type="submit">Register</button>
+        </div>
+        <section class="link login_link">
+            Or would you like to <a href="{{ path('login') }}">login</a>?
+        </section>
+        {{ form_end(form) }}
+    </div>
+{% endblock body %}

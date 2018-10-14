@@ -1,0 +1,62 @@
+@import "colors";
+@import "fonts";
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: $lato;
+
+  a, a:link, a:visited {
+    text-decoration: none;
+    color: #555;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $slabo;
+  }
+
+  div.wrapper-login, div.wrapper-register {
+    width: 50%;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        label {
+          color: #ccc;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+          padding: 5px;
+          font-family: $lato;
+          background-color: rgb(85, 85, 85);
+          border: 1px solid transparent;
+          color: #ccc;
+        }
+
+        button {
+          background-color: #333;
+          border: 2px solid #555;
+          padding: 5px;
+          color: #ccc;
+        }
+
+        button:hover {
+          background-color: #555;
+        }
+      }
+    }
+  }
+}
+
+body.login, body.register {
+  background: #333;
+  color: #fff;
+}

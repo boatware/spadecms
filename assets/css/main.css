@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900|Slabo+27px&subset=latin-ext");
+body {
+  background: #fff;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+body a, body a:link, body a:visited {
+  text-decoration: none;
+  color: #555;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Slabo 27px", serif;
+}
+body div.wrapper-login, body div.wrapper-register {
+  width: 50%;
+  margin: 0 auto;
+}
+body div.wrapper-login h1, body div.wrapper-register h1 {
+  text-align: center;
+}
+body div.wrapper-login form div, body div.wrapper-register form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+}
+body div.wrapper-login form div label, body div.wrapper-register form div label {
+  color: #ccc;
+}
+body div.wrapper-login form div input[type="text"], body div.wrapper-login form div input[type="password"], body div.wrapper-login form div input[type="email"], body div.wrapper-register form div input[type="text"], body div.wrapper-register form div input[type="password"], body div.wrapper-register form div input[type="email"] {
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+  background-color: #555555;
+  border: 1px solid transparent;
+  color: #ccc;
+}
+body div.wrapper-login form div button, body div.wrapper-register form div button {
+  background-color: #333;
+  border: 2px solid #555;
+  padding: 5px;
+  color: #ccc;
+}
+body div.wrapper-login form div button:hover, body div.wrapper-register form div button:hover {
+  background-color: #555;
+}
+
+body.login, body.register {
+  background: #333;
+  color: #fff;
+}
