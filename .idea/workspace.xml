@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345329d6-eb01-4627-9e5f-c109faa7cf40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,16 +17,17 @@
     <session id="-97794263">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,7 +37,7 @@
           <entry key="htaccess" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="44" />
+          <entry key="php" value="45" />
           <entry key="scss" value="4" />
           <entry key="twig" value="9" />
           <entry key="yml" value="5" />
@@ -48,7 +48,7 @@
           <entry key="CSS" value="2" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="44" />
+          <entry key="PHP" value="45" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
           <entry key="Twig" value="9" />
@@ -63,7 +63,7 @@
           <entry key="php" value="2407" />
           <entry key="scss" value="645" />
           <entry key="twig" value="161" />
-          <entry key="txt" value="15" />
+          <entry key="txt" value="26" />
           <entry key="yml" value="25" />
         </counts>
       </usages-collector>
@@ -71,7 +71,7 @@
         <counts>
           <entry key="Markdown" value="197" />
           <entry key="PHP" value="2407" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="SCSS" value="645" />
           <entry key="Twig" value="161" />
           <entry key="YAML" value="25" />
@@ -92,15 +92,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Security/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
+            <state relative-caret-position="810">
               <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
                 <element signature="e#130#171#0#PHP" expanded="true" />
@@ -152,11 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -317,7 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -468,6 +467,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,7 +508,8 @@
       <workItem from="1538327819918" duration="348000" />
       <workItem from="1538514747941" duration="27000" />
       <workItem from="1538819940967" duration="624000" />
-      <workItem from="1539522354156" duration="536000" />
+      <workItem from="1539522354156" duration="664000" />
+      <workItem from="1539523087961" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Update README">
       <created>1539522713939</created>
@@ -517,17 +518,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539522713939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update gitignore">
+      <created>1539522917383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539522917383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24588000" />
+    <option name="totallyTimeSpent" value="24857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="815" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2817715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28498074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -558,7 +566,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/app.php" />
@@ -646,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -766,30 +768,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="290" column="28" selection-start-line="290" selection-start-column="28" selection-end-line="290" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Security/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state relative-caret-position="810">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
             <element signature="e#130#171#0#PHP" expanded="true" />
@@ -811,6 +792,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4350">
+          <caret line="290" column="28" selection-start-line="290" selection-start-column="28" selection-end-line="290" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
