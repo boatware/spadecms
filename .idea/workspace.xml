@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345329d6-eb01-4627-9e5f-c109faa7cf40" name="Default Changelist" comment="" />
+    <list default="true" id="345329d6-eb01-4627-9e5f-c109faa7cf40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +24,19 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="log" value="1" />
+          <entry key="md" value="1" />
           <entry key="php" value="44" />
           <entry key="scss" value="4" />
           <entry key="twig" value="9" />
@@ -42,7 +47,9 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Log" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="44" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
           <entry key="Twig" value="9" />
           <entry key="YAML" value="5" />
@@ -51,15 +58,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="19" />
+          <entry key="md" value="197" />
           <entry key="php" value="2407" />
           <entry key="scss" value="645" />
           <entry key="twig" value="161" />
+          <entry key="txt" value="15" />
           <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="197" />
           <entry key="PHP" value="2407" />
+          <entry key="PLAIN_TEXT" value="34" />
           <entry key="SCSS" value="645" />
           <entry key="Twig" value="161" />
           <entry key="YAML" value="25" />
@@ -80,24 +92,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,14 +128,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Security/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="-5">
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
                 <element signature="e#130#171#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -174,6 +189,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,6 +229,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" />
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/Resources/views/security/register.html.twig" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -291,11 +311,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,7 +468,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,16 +508,26 @@
       <workItem from="1538327819918" duration="348000" />
       <workItem from="1538514747941" duration="27000" />
       <workItem from="1538819940967" duration="624000" />
+      <workItem from="1539522354156" duration="536000" />
     </task>
+    <task id="LOCAL-00001" summary="Update README">
+      <created>1539522713939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539522713939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24052000" />
+    <option name="totallyTimeSpent" value="24588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="815" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27856225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2817715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -522,6 +553,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/app.php" />
@@ -752,11 +789,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Security/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        <state relative-caret-position="-5">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
             <element signature="e#130#171#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
